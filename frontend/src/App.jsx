@@ -7,7 +7,7 @@ function App() {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
 
-  const API = "http://localhost:5000";
+  const API = "https://notestask-backend.onrender.com";
 
   const fetchNotes = async () => {
     const res = await fetch(`${API}/notes`);
